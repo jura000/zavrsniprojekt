@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-80515332-3"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-80515332-3');
+		</script>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +19,7 @@
 		<link rel="stylesheet" href="font-awesome-animation.min.css">
 		<link href="js/lightbox/css/lightbox.css" rel="stylesheet">
 		<link rel="stylesheet" href="js/vegas/vegas.min.css">
+		<link href="js/lity/lity.css" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto|Anton|Josefin+Sans|Lato|Oswald" rel="stylesheet">
 		<title>Juraj Rakuša | Portfolio</title>
@@ -131,13 +141,26 @@
 			    <source src="video/sky.mp4" type='video/mp4'>
   		</video>
 
-			<video id="uniqueID" class="video-js vjs-fluid" controls preload="auto" width="640" height="264"
-			 data-setup='{ "techOrder": ["youtube"],
-			 "sources": [{ "type": "video/youtube", "src": "https://youtu.be/1AGDJFazH1Y"}] }'>
-    	</video>
+			<div style="position:relative;height:0;padding-bottom:56.21%">
+				<iframe src="https://www.youtube.com/embed/1AGDJFazH1Y?ecver=2"
+				style="position:absolute;width:100%;height:100%;left:0" width="641" height="360" frameborder="0"
+				allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
 
-			<div style="position:relative;height:0;padding-bottom:56.21%"><iframe src="https://www.youtube.com/embed/AfkRg9Oy4PQ?ecver=2"
-				style="position:absolute;width:100%;height:100%;left:0" width="641" height="360" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+			<div class="gallery">
+				<div class="col-xs-12 col-sm-6 image-container">
+						<img src="img/robot_thumb.jpg">
+						<div class="overlay vid">
+							<p><a href="https://youtu.be/G4uxr0vL2h8" data-lity>&#9654;</a></p>
+						</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 image-container">
+						<img src="img/medved_thumb.jpg">
+						<div class="overlay vid">
+							<p><a href="https://youtu.be/QQylnJEq8v8" data-lity>&#9654;</a></p>
+						</div>
+				</div>
+			</div>
 		</div>
 
 
@@ -179,17 +202,11 @@
 		<script src="js/lightbox/js/lightbox.js"></script>
 		<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
 		<script src="js/youtube/Youtube.min.js"></script>
-
+		<script src="js/lity/lity.js"></script>
     <!-- VIDEOJS JS -->
     <script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
     <script src="https://cdn.rawgit.com/videojs/videojs-youtube/master/src/Youtube.js"></script>
 
-    <script>
-        function InitializeIFrame() {
-            document.body.getcss = true;
-        }
-
-    </script>
 
 		<script>
 						$(".slideshow").vegas({

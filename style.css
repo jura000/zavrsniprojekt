@@ -104,6 +104,9 @@
 	color: #000;
 	text-decoration: none;
 }
+.vid p {
+	font-size: 58pt;
+}
 .contact {
 	height: 600px;
 	background-color: #fff;
@@ -387,6 +390,15 @@ body {
 	}
 	.blocks .gray-bg8 {
 		background-color: #e0e0e0;
+	}
+	.about-text p {
+		font-size: 14pt;
+		font-family: Roboto Condensed;
+		line-height: 200%;
+	}
+	.about h1 {
+		font-size: 24pt;
+		padding-bottom: 20px;
 	}
 }
 
