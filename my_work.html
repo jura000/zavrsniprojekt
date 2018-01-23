@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen" href="http://vjs.zencdn.net/5.4.6/video-js.min.css">
+    <link rel="stylesheet" media="screen" href="vsg-skin.css">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="font-awesome-animation.min.css">
+		<link href="js/lightbox/css/lightbox.css" rel="stylesheet">
+		<link rel="stylesheet" href="js/vegas/vegas.min.css">
+		<link href="style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto|Anton|Josefin+Sans|Lato|Oswald" rel="stylesheet">
+		<title>Juraj Rakuša | Portfolio</title>
+	</head>
+  <body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 header">
+				<a href="index.html">juraj rakuša</a>
+				<p>portfolio</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="iconbar">
+				<a href="https://www.facebook.com/juraj.rakusa" class="itembar">
+					<i class="ele fab fa-facebook-f"></i>
+				</a>
+				<a href="https://twitter.com/jura_000"class="itembar">
+					<i class="ele fab fa-twitter"></i>
+				</a>
+				<a href="https://www.instagram.com/jurao0o/" class="itembar">
+					<i class="ele fab fa-instagram"></i>
+				</a>
+				<a href="https://www.youtube.com/channel/UCZMBfgVLXAyN6C6xzuyubgA" class="itembar">
+					<i class="ele fab fa-youtube"></i>
+				</a>
+				</div>
+		</div>
+
+		<div class="row">
+				<div class="main-menu" id="menu">
+					<a href="index.html">Home</a>
+					<a href="about_me.html">About Me</a>
+					<a href="my_work.html" class="active">My Work</a>
+					<a href="contact.html">Contact</a>
+					<div class="hamburger"><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#8801;</a></div>
+				</div>
+		</div>
+
+		<div>
+			<h2 class="row subtitle">Photos</h2>
+		</div>
+		<div class="row">
+			<div class="slideshow">
+			</div>
+		</div>
+
+		<div id="carousel-example-generic" class="row carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="img\sunset.jpg" alt="sunset">
+		      <div class="carousel-caption">
+		        SUNSET BEHIND THE MOUNTAINS
+		      </div>
+		    </div>
+				<div class="item">
+		      <img src="img\lamp.jpg" alt="lamp">
+		      <div class="carousel-caption">
+		        STREET LAMP
+		      </div>
+		    </div>
+				<div class="item">
+		      <img src="img\door.jpg" alt="door">
+		      <div class="carousel-caption">
+		        RUINED BUILDING DOOR
+		      </div>
+		    </div>
+				<div class="item">
+		      <img src="img\dog.jpg" alt="dog">
+		      <div class="carousel-caption">
+		        OUT FOR A WALK
+		      </div>
+		    </div>
+				<div class="item">
+		      <img src="img\candles.jpg" alt="candles">
+		      <div class="carousel-caption">
+		        CANDLES AT NIGHT
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="img\autumn.jpg" alt="autumn">
+		      <div class="carousel-caption">
+		        AUTUMN AT THE PARK
+		      </div>
+		    </div>
+		  </div>
+
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+		<a id="videos"></a>
+		<h2 class="row subtitle">Videos</h2>
+
+		<div class="row">
+
+			<video id="my-video" class="video-js vjs-fluid" controls preload="auto"
+			  	poster="img/skyThumb.jpg" data-setup="{}">
+			    <source src="video/sky.mp4" type='video/mp4'>
+  		</video>
+
+			<video id="uniqueID" class="video-js vjs-fluid" controls preload="auto" width="640" height="264"
+			 data-setup='{ "techOrder": ["youtube"],
+			 "sources": [{ "type": "video/youtube", "src": "https://youtu.be/1AGDJFazH1Y"}] }'>
+    	</video>
+
+			<div style="position:relative;height:0;padding-bottom:56.21%"><iframe src="https://www.youtube.com/embed/AfkRg9Oy4PQ?ecver=2"
+				style="position:absolute;width:100%;height:100%;left:0" width="641" height="360" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+		</div>
+
+
+		<form class="row contact">
+			<div class="form-main">
+				<p>QUICK CONTACT</p>
+				<div class="form-group">
+					<input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+				</div>
+				<div class="form-group">
+					<input type="Subject" class="form-control" id="exampleInputSubject" placeholder="Subject">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="3" placeholder="Message"></textarea>
+				</div>
+				<button type="submit" class="btn btn-default">Send</button>
+			</div>
+		</form>
+
+		<div class="row footer">
+			<div class="col-xs-12">
+				<img src="img/footer_title.png">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about_me.html">About Me</a></li>
+					<li><a href="my_work.html">My Work</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/vegas/vegas.min.js"></script>
+		<script src="js/lightbox/js/lightbox.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+		<script src="js/youtube/Youtube.min.js"></script>
+
+    <!-- VIDEOJS JS -->
+    <script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
+    <script src="https://cdn.rawgit.com/videojs/videojs-youtube/master/src/Youtube.js"></script>
+
+    <script>
+        function InitializeIFrame() {
+            document.body.getcss = true;
+        }
+
+    </script>
+
+		<script>
+						$(".slideshow").vegas({
+				    slides: [
+				        { src: "img/lamp.jpg" },
+				        { src: "img/sunset.jpg" },
+				        { src: "img/door.jpg" },
+				        { src: "img/candles.jpg" }
+				    ]
+				});
+		</script>
+		<script>
+		function myFunction() {
+	    var x = document.getElementById("menu");
+	    if (x.className === "main-menu") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "main-menu";
+	    }
+	}
+		</script>>
+  </body>
+</html>

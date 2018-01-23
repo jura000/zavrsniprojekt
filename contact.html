@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen" href="http://vjs.zencdn.net/5.4.6/video-js.min.css">
+    <link rel="stylesheet" media="screen" href="vsg-skin.css">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="font-awesome-animation.min.css">
+		<link href="js/lightbox/css/lightbox.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto|Anton|Josefin+Sans|Lato|Oswald" rel="stylesheet">
+		<title>Juraj Rakuša | Portfolio</title>
+	</head>
+  <body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 header">
+				<a href="index.html">Juraj Rakuša</a>
+				<p>Portfolio</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="iconbar">
+				<a href="https://www.facebook.com/juraj.rakusa" class="itembar">
+					<i class="ele fab fa-facebook-f"></i>
+				</a>
+				<a href="https://twitter.com/jura_000"class="itembar">
+					<i class="ele fab fa-twitter"></i>
+				</a>
+				<a href="https://www.instagram.com/jurao0o/" class="itembar">
+					<i class="ele fab fa-instagram"></i>
+				</a>
+				<a href="https://www.youtube.com/channel/UCZMBfgVLXAyN6C6xzuyubgA" class="itembar">
+					<i class="ele fab fa-youtube"></i>
+				</a>
+				</div>
+		</div>
+
+		<div class="row">
+				<div class="main-menu" id="menu">
+					<a href="index.html">Home</a>
+					<a href="about_me.html">About Me</a>
+					<a href="my_work.html">My Work</a>
+					<a href="contact.html" class="active">Contact</a>
+					<div class="hamburger"><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#8801;</a></div>
+				</div>
+		</div>
+
+
+		<form class="row contact">
+			<div class="form-main">
+				<p><mark class="highlight">QUICK CONTACT</mark></p>
+				<div class="form-group">
+					<input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+				</div>
+				<div class="form-group">
+					<input type="Subject" class="form-control" id="exampleInputSubject" placeholder="Subject">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="3" placeholder="Message"></textarea>
+				</div>
+				<button type="submit" class="btn btn-default">Send</button>
+			</div>
+		</form>
+
+		<div class="row footer">
+			<div class="col-xs-12">
+				<img src="img/footer_title.png">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about_me.html">About Me</a></li>
+					<li><a href="my_work.html">My Work</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/lightbox/js/lightbox.js"></script>
+	<script>
+	function myFunction() {
+    var x = document.getElementById("menu");
+    if (x.className === "main-menu") {
+        x.className += " responsive";
+    } else {
+        x.className = "main-menu";
+    }
+}
+	</script>
+  </body>
+</html>
